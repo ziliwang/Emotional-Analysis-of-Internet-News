@@ -1,0 +1,134 @@
+2019-10-17 22:26:32,032 log_in_file: True
+2019-10-17 22:26:32,032 bert_path: /home/wangzl/PretrainedLM/BERT/New/roberta_zh_base_L-24_H-1024-16
+2019-10-17 22:26:32,032 data_path: ../data/
+2019-10-17 22:26:32,032 usegpu: True
+2019-10-17 22:26:32,032 use_origin: True
+2019-10-17 22:26:32,032 n_fold: 5
+2019-10-17 22:26:32,032 total_step: 10000
+2019-10-17 22:26:32,032 eval_every: 1000
+2019-10-17 22:26:32,032 early_stop: 4
+2019-10-17 22:26:32,032 max_length: 510
+2019-10-17 22:26:32,032 max_title_rate: 0.125
+2019-10-17 22:26:32,032 content_head_rate: 0.6
+2019-10-17 22:26:32,032 batch_size: 2
+2019-10-17 22:26:32,032 lr_scheduler_type: linear
+2019-10-17 22:26:32,032 input_pattern: head+tail+dynamic
+2019-10-17 22:26:32,032 clean_method: space+notzh
+2019-10-17 22:26:32,032 warmup_rate: 0.1
+2019-10-17 22:26:32,032 classifier_dropout: 0.1
+2019-10-17 22:26:32,032 classifier_weight_decay: 0.0
+2019-10-17 22:26:32,033 cache_final_model: False
+2019-10-17 22:26:32,033 seed: 23
+2019-10-17 22:26:32,033 lr: 5e-06
+2019-10-17 22:26:32,033 lr_decay_in_layers: 0.99
+2019-10-17 22:26:32,033 weight_decay: 0.01
+2019-10-17 22:26:56,373 Token Sample: [CLS]_0 16_0 岁_0 找_0 工_0 作_0 [SEP]_0 [SEP]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1
+2019-10-17 22:27:11,184 Token Sample: [CLS]_0 苹_0 果_0 高_0 通_0 打_0 架_0 ，_0 殃_0 及_0 整_0 个_0 无_0 线_0 产_0 业_0 [SEP]_0 随_1 着_1 美_1 国_1 联_1 邦_1 贸_1 易_1 委_1 员_1 会_1 (_1 ft_1 ##c_1 )_1 展_1 开_1 调_1 查_1 ，_1 以_1 及_1 在_1 中_1 国_1 、_1 德_1 国_1 和_1 美_1 国_1 等_1 地_1 的_1 多_1 项_1 法_1 律_1 诉_1 讼_1 将_1 在_1 未_1 来_1 几_1 个_1 月_1 陆_1 续_1 做_1 出_1 裁_1 决_1 ，_1 苹_1 果_1 (_1 apple_1 )_1 和_1 高_1 通_1 之_1 间_1 的_1 专_1 利_1 战_1 正_1 持_1 续_1 升_1 温_1 中_1 [UNK]_1 （_1 点_1 击_1 左_1 下_1 角_1 阅_1 读_1 原_1 文_1 ，_1 查_1 看_1 全_1 部_1 ）_1 [SEP]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1
+2019-10-17 22:27:45,700 Token Sample: [CLS]_0 江_0 苏_0 将_0 开_0 展_0 专_0 项_0 行_0 动_0 严_0 查_0 "_0 加_0 塞_0 "_0 等_0 危_0 险_0 驾_0 驶_0 行_0 为_0 [SEP]_0 2012_1 年_1 1_1 月_1 至_1 2015_1 年_1 6_1 月_1 底_1 ，_1 全_1 国_1 公_1 安_1 交_1 管_1 部_1 门_1 查_1 处_1 的_1 与_1 [UNK]_1 路_1 怒_1 [UNK]_1 有_1 关_1 的_1 违_1 法_1 行_1 为_1 共_1 计_1 1_1 ._1 56_1 亿_1 起_1 ，_1 尤_1 其_1 是_1 强_1 行_1 变_1 更_1 车_1 道_1 、_1 不_1 按_1 规_1 定_1 让_1 行_1 违_1 法_1 行_1 为_1 查_1 处_1 量_1 逐_1 年_1 上_1 升_1 。_1 针_1 对_1 近_1 年_1 来_1 因_1 [UNK]_1 路_1 怒_1 症_1 [UNK]_1 引_1 发_1 的_1 危_1 险_1 性_1 驾_1 驶_1 高_1 发_1 的_1 现_1 象_1 ，_1 公_1 安_1 部_1 交_1 管_1 局_1 昨_1 天_1 发_1 出_1 通_1 知_1 ，_1 要_1 求_1 各_1 地_1 交_1 警_1 加_1 大_1 查_1 处_1 力_1 度_1 ，_1 专_1 项_1 整_1 治_1 超_1 速_1 、_1 违_1 法_1 抢_1 行_1 、_1 不_1 按_1 规_1 定_1 让_1 行_1 、_1 占_1 用_1 应_1 急_1 车_1 道_1 行_1 驶_1 、_1 违_1 法_1 超_1 车_1 等_1 带_1 有_1 攻_1 击_1 性_1 危_1 险_1 驾_1 驶_1 的_1 行_1 为_1 ，_1 严_1 格_1 依_1 法_1 追_1 究_1 [UNK]_1 路_1 怒_1 症_1 [UNK]_1 的_1 违_1 法_1 责_1 任_1 。_1 现_1 代_1 快_1 报_1 记_1 者_1 获_1 悉_1 ，_1 江_1 苏_1 省_1 公_1 安_1 厅_1 交_1 警_1 总_1 队_1 及_1 时_1 做_1 出_1 了_1 部_1 署_1 ，_1 做_1 好_1 了_1 重_1 点_1 整_1 治_1 方_1 案_1 。_1 在_1 整_1 治_1 期_1 间_1 ，_1 电_1 子_1 警_1 察_1 和_1 交_1 警_1 现_1 场_1 执_1 法_1 将_1 同_1 时_1 进_1 行_1 。_1 路_1 怒_1 危_1 害_1 究_1 竟_1 有_1 多_1 大_1 ？_1 南_1 京_1 数_1 据_1 ：_1 非_1 现_1 场_1 曝_1 光_1 ，_1 加_1 塞_1 占_1 三_1 成_1 发_1 生_1 在_1 今_1 年_1 5_1 月_1 3_1 日_1 成_1 都_1 的_1 一_1 起_1 事_1 故_1 ，_1 引_1 发_1 了_1 [SEP]_1 就_1 急_1 刹_1 ，_1 还_1 有_1 的_1 司_1 机_1 容_1 易_1 激_1 动_1 ，_1 产_1 生_1 路_1 怒_1 情_1 绪_1 ，_1 加_1 上_1 不_1 好_1 的_1 驾_1 驶_1 习_1 惯_1 ，_1 开_1 车_1 车_1 速_1 过_1 快_1 急_1 走_1 急_1 停_1 ，_1 不_1 系_1 安_1 全_1 带_1 等_1 ，_1 受_1 [UNK]_1 挥_1 鞭_1 伤_1 [UNK]_1 的_1 可_1 能_1 性_1 就_1 会_1 大_1 大_1 增_1 加_1 。_1 [UNK]_1 高_1 立_1 波_1 说_1 。_1 [UNK]_1 一_1 般_1 来_1 说_1 ，_1 后_1 排_1 乘_1 客_1 往_1 往_1 会_1 忽_1 略_1 系_1 安_1 全_1 带_1 ，_1 所_1 以_1 现_1 实_1 中_1 后_1 排_1 乘_1 客_1 受_1 伤_1 的_1 情_1 况_1 比_1 较_1 多_1 一_1 点_1 。_1 [UNK]_1 陆_1 佳_1 俊_1 说_1 ，_1 [UNK]_1 挥_1 鞭_1 伤_1 [UNK]_1 的_1 严_1 重_1 程_1 度_1 与_1 汽_1 车_1 急_1 刹_1 前_1 行_1 驶_1 速_1 度_1 成_1 正_1 比_1 关_1 系_1 ，_1 也_1 与_1 坐_1 车_1 者_1 是_1 否_1 系_1 安_1 全_1 带_1 有_1 一_1 定_1 的_1 关_1 系_1 ，_1 但_1 归_1 根_1 到_1 底_1 其_1 实_1 是_1 驾_1 驶_1 和_1 乘_1 车_1 习_1 惯_1 决_1 定_1 了_1 受_1 [UNK]_1 挥_1 鞭_1 伤_1 [UNK]_1 的_1 概_1 率_1 。_1 (_1 王_1 瑞_1 ）_1 [SEP]_1
+2019-10-17 22:28:06,689 seed everything and create model
+2019-10-17 22:37:07,954 step 1000 train loss: 0.6047
+2019-10-17 22:37:07,954 step 1000 score: 0.7006
+2019-10-17 22:45:59,625 step 2000 train loss: 0.4614
+2019-10-17 22:45:59,625 step 2000 score: 0.7805
+2019-10-17 22:54:51,085 step 3000 train loss: 0.4125
+2019-10-17 22:54:51,085 step 3000 score: 0.7752
+2019-10-17 23:03:42,536 step 4000 train loss: 0.2721
+2019-10-17 23:03:42,536 step 4000 score: 0.7841
+2019-10-17 23:12:34,134 step 5000 train loss: 0.2698
+2019-10-17 23:12:34,135 step 5000 score: 0.7812
+2019-10-17 23:21:25,741 step 6000 train loss: 0.2139
+2019-10-17 23:21:25,741 step 6000 score: 0.7896
+2019-10-17 23:30:17,192 step 7000 train loss: 0.1164
+2019-10-17 23:30:17,192 step 7000 score: 0.7840
+2019-10-17 23:39:08,629 step 8000 train loss: 0.0978
+2019-10-17 23:39:08,629 step 8000 score: 0.7733
+2019-10-17 23:48:00,045 step 9000 train loss: 0.0932
+2019-10-17 23:48:00,045 step 9000 score: 0.7708
+2019-10-17 23:56:51,525 step 10000 train loss: 0.0470
+2019-10-17 23:56:51,525 step 10000 score: 0.7750
+2019-10-17 23:56:51,525 best score is 0.7896
+2019-10-18 00:12:33,006 step 1000 train loss: 0.6259
+2019-10-18 00:12:33,007 step 1000 score: 0.6120
+2019-10-18 00:21:24,426 step 2000 train loss: 0.4358
+2019-10-18 00:21:24,426 step 2000 score: 0.7603
+2019-10-18 00:30:15,976 step 3000 train loss: 0.4306
+2019-10-18 00:30:15,976 step 3000 score: 0.7684
+2019-10-18 00:39:07,481 step 4000 train loss: 0.2743
+2019-10-18 00:39:07,481 step 4000 score: 0.8004
+2019-10-18 00:47:58,901 step 5000 train loss: 0.2806
+2019-10-18 00:47:58,901 step 5000 score: 0.7996
+2019-10-18 00:56:50,299 step 6000 train loss: 0.2610
+2019-10-18 00:56:50,299 step 6000 score: 0.7877
+2019-10-18 01:05:41,751 step 7000 train loss: 0.1391
+2019-10-18 01:05:41,751 step 7000 score: 0.7861
+2019-10-18 01:14:33,226 step 8000 train loss: 0.1376
+2019-10-18 01:14:33,226 step 8000 score: 0.7883
+2019-10-18 01:23:24,667 step 9000 train loss: 0.1167
+2019-10-18 01:23:24,667 step 9000 score: 0.8056
+2019-10-18 01:32:15,811 step 10000 train loss: 0.0684
+2019-10-18 01:32:15,811 step 10000 score: 0.7919
+2019-10-18 01:32:15,812 best score is 0.8056
+2019-10-18 01:47:57,542 step 1000 train loss: 0.6147
+2019-10-18 01:47:57,543 step 1000 score: 0.7158
+2019-10-18 01:56:48,973 step 2000 train loss: 0.4508
+2019-10-18 01:56:48,973 step 2000 score: 0.7446
+2019-10-18 02:05:40,655 step 3000 train loss: 0.4067
+2019-10-18 02:05:40,656 step 3000 score: 0.7961
+2019-10-18 02:14:32,160 step 4000 train loss: 0.2437
+2019-10-18 02:14:32,160 step 4000 score: 0.7818
+2019-10-18 02:23:23,159 step 5000 train loss: 0.2720
+2019-10-18 02:23:23,159 step 5000 score: 0.7531
+2019-10-18 02:32:14,171 step 6000 train loss: 0.2568
+2019-10-18 02:32:14,172 step 6000 score: 0.8041
+2019-10-18 02:41:05,338 step 7000 train loss: 0.1085
+2019-10-18 02:41:05,338 step 7000 score: 0.7988
+2019-10-18 02:49:56,516 step 8000 train loss: 0.1281
+2019-10-18 02:49:56,516 step 8000 score: 0.7987
+2019-10-18 02:58:47,697 step 9000 train loss: 0.0990
+2019-10-18 02:58:47,697 step 9000 score: 0.8027
+2019-10-18 03:07:38,918 step 10000 train loss: 0.0477
+2019-10-18 03:07:38,919 step 10000 score: 0.7976
+2019-10-18 03:07:38,919 best score is 0.8041
+2019-10-18 03:23:20,523 step 1000 train loss: 0.5626
+2019-10-18 03:23:20,523 step 1000 score: 0.7196
+2019-10-18 03:32:11,914 step 2000 train loss: 0.4424
+2019-10-18 03:32:11,914 step 2000 score: 0.7412
+2019-10-18 03:41:03,295 step 3000 train loss: 0.4228
+2019-10-18 03:41:03,295 step 3000 score: 0.7708
+2019-10-18 03:49:54,658 step 4000 train loss: 0.2565
+2019-10-18 03:49:54,658 step 4000 score: 0.7676
+2019-10-18 03:58:46,075 step 5000 train loss: 0.2492
+2019-10-18 03:58:46,075 step 5000 score: 0.7754
+2019-10-18 04:07:37,476 step 6000 train loss: 0.2370
+2019-10-18 04:07:37,476 step 6000 score: 0.7713
+2019-10-18 04:16:28,890 step 7000 train loss: 0.1037
+2019-10-18 04:16:28,890 step 7000 score: 0.7818
+2019-10-18 04:25:20,042 step 8000 train loss: 0.1090
+2019-10-18 04:25:20,043 step 8000 score: 0.7548
+2019-10-18 04:34:11,086 step 9000 train loss: 0.0965
+2019-10-18 04:34:11,086 step 9000 score: 0.7767
+2019-10-18 04:43:02,120 step 10000 train loss: 0.0371
+2019-10-18 04:43:02,120 step 10000 score: 0.7842
+2019-10-18 04:43:02,134 best score is 0.7842
+2019-10-18 04:58:43,244 step 1000 train loss: 0.5677
+2019-10-18 04:58:43,244 step 1000 score: 0.7676
+2019-10-18 05:07:34,226 step 2000 train loss: 0.4639
+2019-10-18 05:07:34,227 step 2000 score: 0.6900
+2019-10-18 05:16:25,193 step 3000 train loss: 0.3997
+2019-10-18 05:16:25,193 step 3000 score: 0.7812
+2019-10-18 05:25:16,203 step 4000 train loss: 0.2344
+2019-10-18 05:25:16,203 step 4000 score: 0.7369
+2019-10-18 05:34:07,229 step 5000 train loss: 0.2528
+2019-10-18 05:34:07,229 step 5000 score: 0.7981
+2019-10-18 05:42:58,175 step 6000 train loss: 0.2358
+2019-10-18 05:42:58,175 step 6000 score: 0.8089
+2019-10-18 05:51:50,252 step 7000 train loss: 0.1192
+2019-10-18 05:51:50,252 step 7000 score: 0.8102
+2019-10-18 06:00:42,185 step 8000 train loss: 0.1014
+2019-10-18 06:00:42,185 step 8000 score: 0.8015
+2019-10-18 06:09:33,940 step 9000 train loss: 0.1071
+2019-10-18 06:09:33,940 step 9000 score: 0.8080
+2019-10-18 06:18:25,359 step 10000 train loss: 0.0526
+2019-10-18 06:18:25,359 step 10000 score: 0.8133
+2019-10-18 06:18:25,373 best score is 0.8133
+2019-10-18 06:25:15,435 average: 0.799355

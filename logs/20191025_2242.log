@@ -1,0 +1,75 @@
+2019-10-25 22:42:23,406 log_in_file: True
+2019-10-25 22:42:23,406 lm_path: /home/wangzl/PretrainedLM/BERT/New/chinese_wwm_ext_pytorch
+2019-10-25 22:42:23,406 lm_type: bert
+2019-10-25 22:42:23,406 data_path: ../data/
+2019-10-25 22:42:23,406 usegpu: True
+2019-10-25 22:42:23,406 total_step: 1500
+2019-10-25 22:42:23,406 eval_every: 150
+2019-10-25 22:42:23,406 early_stop: 4
+2019-10-25 22:42:23,406 max_length: 360
+2019-10-25 22:42:23,406 max_title_rate: 0.125
+2019-10-25 22:42:23,407 content_head_rate: 0.6
+2019-10-25 22:42:23,407 batch_size: 16
+2019-10-25 22:42:23,407 lr_scheduler_type: linear
+2019-10-25 22:42:23,407 input_pattern: head+tail+fixed
+2019-10-25 22:42:23,407 clean_method: space+notzh
+2019-10-25 22:42:23,407 warmup_rate: 0.1
+2019-10-25 22:42:23,407 classifier_dropout: 0.3
+2019-10-25 22:42:23,407 classifier_active: relu
+2019-10-25 22:42:23,407 cache_final_model: False
+2019-10-25 22:42:23,407 seed: 23
+2019-10-25 22:42:23,407 lr: 2e-05
+2019-10-25 22:42:23,407 lr_decay_in_layers: 0.95
+2019-10-25 22:42:23,407 wd_decay_in_layers: 1.1
+2019-10-25 22:42:23,407 weight_decay: 0.01
+2019-10-25 22:42:23,423 padding token is 0
+2019-10-25 22:42:43,369 log_in_file: True
+2019-10-25 22:42:43,369 lm_path: /home/wangzl/PretrainedLM/BERT/New/chinese_wwm_ext_pytorch
+2019-10-25 22:42:43,369 lm_type: bert
+2019-10-25 22:42:43,369 data_path: ../data/
+2019-10-25 22:42:43,369 usegpu: True
+2019-10-25 22:42:43,369 total_step: 1500
+2019-10-25 22:42:43,370 eval_every: 150
+2019-10-25 22:42:43,370 early_stop: 4
+2019-10-25 22:42:43,370 max_length: 360
+2019-10-25 22:42:43,370 max_title_rate: 0.125
+2019-10-25 22:42:43,370 content_head_rate: 0.6
+2019-10-25 22:42:43,370 batch_size: 16
+2019-10-25 22:42:43,370 lr_scheduler_type: linear
+2019-10-25 22:42:43,370 input_pattern: head+tail+fixed
+2019-10-25 22:42:43,370 clean_method: space+notzh
+2019-10-25 22:42:43,370 warmup_rate: 0.1
+2019-10-25 22:42:43,370 classifier_dropout: 0.3
+2019-10-25 22:42:43,370 classifier_active: relu
+2019-10-25 22:42:43,370 cache_final_model: False
+2019-10-25 22:42:43,370 seed: 23
+2019-10-25 22:42:43,370 lr: 2e-05
+2019-10-25 22:42:43,370 lr_decay_in_layers: 0.95
+2019-10-25 22:42:43,370 wd_decay_in_layers: 1.2
+2019-10-25 22:42:43,370 weight_decay: 5e-05
+2019-10-25 22:42:43,386 padding token is 0
+2019-10-25 22:43:11,691 Token Sample: [CLS]_0 诵_0 读_0 英_0 雄_0 事_0 迹_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [SEP]_0 娄_1 紫_1 萱_1 同_1 学_1 是_1 我_1 们_1 班_1 的_1 班_1 长_1 ，_1 看_1 ，_1 她_1 正_1 在_1 给_1 我_1 们_1 大_1 家_1 讲_1 解_1 英_1 雄_1 事_1 迹_1 ，_1 让_1 我_1 们_1 牢_1 记_1 心_1 中_1 。_1 越_1 来_1 越_1 有_1 感_1 情_1 了_1 ，_1 同_1 学_1 们_1 都_1 在_1 认_1 真_1 听_1 ，_1 被_1 英_1 雄_1 事_1 迹_1 所_1 感_1 动_1 ，_1 长_1 大_1 后_1 我_1 也_1 要_1 当_1 一_1 名_1 英_1 雄_1 。_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [SEP]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 娄_1 紫_1 萱_1 同_1 学_1 是_1 我_1 们_1 班_1 的_1 班_1 长_1 ，_1 看_1 ，_1 她_1 正_1 在_1 给_1 我_1 们_1 大_1 家_1 讲_1 解_1 英_1 雄_1 事_1 迹_1 ，_1 让_1 我_1 们_1 牢_1 记_1 心_1 中_1 。_1 越_1 来_1 越_1 有_1 感_1 情_1 了_1 ，_1 同_1 学_1 们_1 都_1 在_1 认_1 真_1 听_1 ，_1 被_1 英_1 雄_1 事_1 迹_1 所_1 感_1 动_1 ，_1 长_1 大_1 后_1 我_1 也_1 要_1 当_1 一_1 名_1 英_1 雄_1 。_1 [SEP]_1
+2019-10-25 22:43:54,011 Token Sample: [CLS]_0 石_0 家_0 庄_0 [UNK]_0 西_0 美_0 金_0 山_0 湖_0 [UNK]_0 五_0 证_0 不_0 全_0 仍_0 开_0 售_0 网_0 友_0 评_0 论_0 醉_0 了_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [SEP]_0 小_1 编_1 喊_1 你_1 看_1 网_1 友_1 神_1 评_1 论_1 啦_1 ~_1 百_1 闻_1 神_1 评_1 论_1 ，_1 精_1 选_1 每_1 日_1 用_1 户_1 热_1 评_1 ，_1 为_1 你_1 分_1 享_1 网_1 友_1 最_1 新_1 鲜_1 、_1 最_1 犀_1 利_1 的_1 观_1 点_1 ~_1 下_1 面_1 给_1 大_1 家_1 分_1 享_1 的_1 热_1 点_1 话_1 题_1 是_1 【_1 石_1 家_1 庄_1 "_1 西_1 美_1 金_1 山_1 湖_1 "_1 五_1 证_1 不_1 全_1 仍_1 开_1 售_1 】_1 ，_1 此_1 消_1 息_1 一_1 经_1 曝_1 出_1 ，_1 在_1 网_1 络_1 上_1 掀_1 起_1 了_1 不_1 小_1 的_1 波_1 澜_1 ，_1 截_1 止_1 目_1 前_1 点_1 击_1 量_1 已_1 达_1 62_1 ##17_1 ，_1 216_1 ##5_1 位_1 网_1 友_1 纷_1 纷_1 发_1 表_1 了_1 自_1 己_1 的_1 态_1 度_1 ~_1 快_1 来_1 围_1 观_1 ，_1 前_1 排_1 抢_1 个_1 沙_1 发_1 吧_1 ~_1 最_1 怕_1 空_1 气_1 突_1 然_1 安_1 静_1 ，_1 最_1 怕_1 买_1 到_1 五_1 证_1 不_1 齐_1 全_1 的_1 房_1 子_1 。_1 而_1 最_1 近_1 石_1 家_1 庄_1 就_1 有_1 一_1 开_1 发_1 商_1 为_1 了_1 造_1 的_1 别_1 墅_1 ，_1 削_1 掉_1 了_1 半_1 架_1 山_1 ，_1 据_1 说_1 [SEP]_1 里_1 省_1 里_1 都_1 有_1 保_1 护_1 伞_1 ！_1 @_1 老_1 牛_1 破_1 车_1 :_1 到_1 底_1 是_1 怎_1 么_1 回_1 事_1 ，_1 这_1 么_1 大_1 的_1 项_1 目_1 ，_1 生_1 米_1 都_1 做_1 成_1 熟_1 饭_1 了_1 才_1 有_1 人_1 去_1 管_1 ，_1 奇_1 怪_1 ！_1 第_1 三_1 回_1 合_1 ：_1 @_1 山_1 野_1 村_1 夫_1 :_1 真_1 不_1 明_1 白_1 为_1 啥_1 费_1 的_1 弄_1 那_1 么_1 多_1 证_1 ，_1 不_1 能_1 一_1 怔_1 通_1 吗_1 ？_1 @_1 田_1 田_1 :_1 怎_1 么_1 就_1 拆_1 了_1 十_1 宗_1 啊_1 每_1 次_1 看_1 网_1 友_1 回_1 复_1 ，_1 小_1 编_1 都_1 深_1 深_1 的_1 折_1 服_1 ！_1 @_1 你_1 ，_1 想_1 说_1 点_1 什_1 么_1 呢_1 ？_1 说_1 说_1 吧_1 ！_1 [SEP]_1
+2019-10-25 22:44:14,901 Token Sample: [CLS]_0 怎_0 么_0 办_0 电_0 信_0 流_0 量_0 卡_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [PAD]_0 [SEP]_0 怎_1 么_1 办_1 电_1 信_1 流_1 量_1 卡_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [SEP]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 [PAD]_1 怎_1 么_1 办_1 电_1 信_1 流_1 量_1 卡_1 [SEP]_1
+2019-10-25 22:44:17,564 seed everything and create model
+2019-10-25 22:46:07,144 step 150 train loss: 0.7515
+2019-10-25 22:46:07,144 step 150 score: 0.5447
+2019-10-25 22:47:51,313 step 300 train loss: 0.5534
+2019-10-25 22:47:51,314 step 300 score: 0.7309
+2019-10-25 22:49:35,454 step 450 train loss: 0.4634
+2019-10-25 22:49:35,454 step 450 score: 0.7469
+2019-10-25 22:51:19,620 step 600 train loss: 0.4000
+2019-10-25 22:51:19,620 step 600 score: 0.7541
+2019-10-25 22:53:03,778 step 750 train loss: 0.4031
+2019-10-25 22:53:03,778 step 750 score: 0.7686
+2019-10-25 22:54:47,935 step 900 train loss: 0.3491
+2019-10-25 22:54:47,935 step 900 score: 0.7565
+2019-10-25 22:56:32,074 step 1050 train loss: 0.3426
+2019-10-25 22:56:32,074 step 1050 score: 0.7864
+2019-10-25 22:58:16,229 step 1200 train loss: 0.3001
+2019-10-25 22:58:16,229 step 1200 score: 0.7849
+2019-10-25 23:00:00,379 step 1350 train loss: 0.2925
+2019-10-25 23:00:00,379 step 1350 score: 0.7841
+2019-10-25 23:01:44,522 step 1500 train loss: 0.3094
+2019-10-25 23:01:44,523 step 1500 score: 0.7807
+2019-10-25 23:01:44,523 best score is 0.7864
